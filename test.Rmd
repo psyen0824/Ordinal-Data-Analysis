@@ -1,0 +1,10 @@
+---
+title: "test"
+author: "Pei-Shan Yen"
+date: "11/29/2020"
+output: html_document
+---
+
+## Latent Variable
+
+The latent variable is common to use when dealing with the multiclass classification. \cite{Anderson1981} discussed using the latent variable to help analyze the outcome variable $Y$ with 2 groups including $H_1$ and $H_2$, assuming the covariates are $x =(x_1, x_2, ...x_p)$. This classification rule maximizes the probability of correct categorization and is obtained from the posterior probability $P(H_1|x)$ and $P(H_2|x)$. The method is appropriate for distinct, qualitative outcome variables but is not appropriate for the quantitative, ordinal outcome variables. The reason is that it is possible that the classification is assigned to the adjacent categories, especially when there are more than two distinct ordered groups. However, this misclassification may decrease if we use an unobserved continuous variable $Y$ coupled with a threshold principle as a latent variable $W$. Using a continuous variable as the latent variable is reasonable given the quantitative characteristic of the ordinal data. 
